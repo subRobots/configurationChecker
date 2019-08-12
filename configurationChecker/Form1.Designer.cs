@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.lblErrors = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -51,7 +52,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(457, 20);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "J:\\dna\\nc5.xml";
             // 
             // button1
             // 
@@ -92,11 +92,21 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // lblErrors
+            // 
+            this.lblErrors.AutoSize = true;
+            this.lblErrors.Location = new System.Drawing.Point(150, 60);
+            this.lblErrors.Name = "lblErrors";
+            this.lblErrors.Size = new System.Drawing.Size(13, 13);
+            this.lblErrors.TabIndex = 6;
+            this.lblErrors.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 408);
+            this.Controls.Add(this.lblErrors);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label2);
@@ -120,6 +130,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lblErrors;
     }
 }
 
