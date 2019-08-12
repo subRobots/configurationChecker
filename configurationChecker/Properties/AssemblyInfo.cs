@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("configurationChecker")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ESC Automation")]
+[assembly: AssemblyCompany("subRobots")]
 [assembly: AssemblyProduct("configurationChecker")]
-[assembly: AssemblyCopyright("Copyright © ESC Automation 2016")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
